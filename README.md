@@ -1,4 +1,5 @@
 # Investigation of Vision Models
+
 <div align ="center">
  <img src="https://github.com/Mehul0x/Expected-Calibration-Error-for-Vision-Models/assets/146676085/e88c5915-dba0-4754-8888-90e90b40620c" >
 
@@ -41,4 +42,21 @@ Its calibration is much higher, outperforming what's given in the reference but 
 
 ![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/bdf173fa-846d-4c2e-b494-3459a3a52457)
 
+### ConvNext-CLIP
 
+<img src="https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/be9d8645-298b-4851-8892-2d37eedc283e" width="412" height="517"/>
+
+Again, we see a vast difference in performance.
+
+![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/593dcf27-0d65-4bcd-b7a0-7d574b10f959)
+
+### ViT-CLIP
+
+<img src="https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/6c422741-a776-4c34-a1f3-de90046b300d" width="412" height="517"/>
+
+This time the ECE is an exact match but the accuracy of the model is tremendously better.
+
+![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/77fc0d53-e684-4fa1-a7c6-f6fbf2d69e49)
+
+
+> I am sure, I am doing something wrong, reach out to me on X.com/AerofreakM , if you have any suggestions.
