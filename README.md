@@ -59,4 +59,3 @@ This time the ECE is an exact match but the accuracy of the model is tremendousl
 ![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/77fc0d53-e684-4fa1-a7c6-f6fbf2d69e49)
 
 
-> I am sure, I am doing something wrong, reach out to me on X.com/AerofreakM , if you have any suggestions.
