@@ -22,9 +22,23 @@ My goal with this repo is to recreate some parts of this reasearch paper, while 
 
 ## My Results
 
+I have used Imagenet-1k's validation as the author would have to get these results.
+
 ### ConvNext-sup
-<img src="https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/c56db5fe-a646-4c88-a36c-92713efd62bf" width="317" height="398"/>
+<img src="https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/c56db5fe-a646-4c88-a36c-92713efd62bf" width="412" height="517"/>
+
 **ECE=0.09**
-This is vastly different to the article, which has an ECE of 0.0281, also the accuracy in my test is 1% lower. Why this difference? I have used to exact architecture, training and fine-tuned model as specified. 
+This is vastly different to the article, which has an ECE of 0.0281, also the accuracy in my test is 1% lower. Why this difference? I have used to exact architecture, training and fine-tuned model as specified.
+
+![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/0876d79b-a07c-4e49-877c-4f814196c50f)
+
 
 ### ViT-sup
+
+<img src="https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/443f856a-4b41-48a0-bb8b-5eacf07f013b" width="412" height="517"/>
+
+Its calibration is much higher, outperforming what's given in the reference but it has a lower accuracy.
+
+![image](https://github.com/ariesiitr/Expected-Calibration-Error-for-Vision-Models/assets/146676085/bdf173fa-846d-4c2e-b494-3459a3a52457)
+
+
