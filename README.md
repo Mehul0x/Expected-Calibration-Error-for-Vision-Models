@@ -13,3 +13,6 @@ For instance, if a model predicts a 70% chance of an event and it happens 70% of
 crucial for applications where understanding uncertainty is important.
 
 This was inspired by https://arxiv.org/pdf/2311.09215 "ConvNet vs Transformer, Supervised vs CLIP: Beyond ImageNet Accuracy" 
+
+This paper deeply analysed vision models, while differentiating between conventional CNNs (ConvNext) & upcoming transformer-based architectures (ViT). It also differentiates between supervised and CLIP (Contrastive Language Image Pre-Training). The authors go into the depth of which model is better at which particular task and which is more "transferable", i.e. has more real-world potential. They used ImageNet-1k and ImagNet-R to evaluate already pre-trained models.
+My goal with this repo is to recreate some parts of this paper, while improving my understanding of ECE, Convnext, ViT & CLIP. Interestingly, I had slightly different results compared to the research paper.
